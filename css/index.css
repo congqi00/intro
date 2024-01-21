@@ -18,15 +18,6 @@ li {
     color: white;
 }
 
-#main {
-    overflow: auto;
-    scroll-snap-type: y mandatory;
-}
-
-#main li {
-    scroll-snap-align: start;
-}
-
 #li01 {
     background-image: url("../imgs/0.04.png");
 }
@@ -64,7 +55,7 @@ li {
 }
 
 #li10 {
-    background-image: url("../imgs/2.25.png");
+    background-image: url("../imgs/2.08.png");
 }
 
 #li11 {
