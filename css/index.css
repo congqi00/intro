@@ -1,7 +1,92 @@
+body {
+    margin: 0;
+}
+
 ul {
+    padding: 0;
+}
+
+li {
     height: 100%;
     margin: 0;
-    background-image: url("../imgs/0.04.png");
     background-size: auto 100%;
     background-position-x: center;
+
+    list-style-type: none;
+
+    font-size: 60px;
+    color: white;
+}
+
+#main {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+#main li {
+    scroll-snap-align: start;
+}
+
+#li01 {
+    background-image: url("../imgs/0.04.png");
+}
+
+#li02 {
+    background-image: url("../imgs/0.14.png");
+}
+
+#li03 {
+    background-image: url("../imgs/0.22.png");
+}
+
+#li04 {
+    background-image: url("../imgs/0.25.png");
+}
+
+#li05 {
+    background-image: url("../imgs/1.21.png");
+}
+
+#li06 {
+    background-image: url("../imgs/1.35.png");
+}
+
+#li07 {
+    background-image: url("../imgs/0.17.png");
+}
+
+#li08 {
+    background-image: url("../imgs/2.17.png");
+}
+
+#li09 {
+    background-image: url("../imgs/2.20.png");
+}
+
+#li10 {
+    background-image: url("../imgs/2.25.png");
+}
+
+#li11 {
+    background-image: url("../imgs/3.24.png");
+}
+
+#li12 {
+    background-image: url("../imgs/3.15.png");
+}
+
+#li13 {
+    background-image: url("../imgs/3.30.png");
+}
+
+#li14 {
+    background-image: url("../imgs/3.42.png");
+}
+
+#li15 {
+    background-image: url("../imgs/3.45.png");
+}
+
+#li16 {
+    background-image: url("../imgs/3.52.png");
 }
