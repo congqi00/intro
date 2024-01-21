@@ -8,11 +8,14 @@ ul {
 
 li {
     height: 100%;
-    margin: 0;
     background-size: auto 100%;
     background-position-x: center;
 
     list-style-type: none;
+
+
+    margin: auto;
+    text-align: center;
 
     font-size: 60px;
     color: white;
